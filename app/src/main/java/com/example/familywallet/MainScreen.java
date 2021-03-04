@@ -118,7 +118,8 @@ public class MainScreen extends AppCompatActivity {
         markets.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+               // Intent intent = new Intent(MainScreen.this, Markets.class);
+               // startActivity(intent);
             }
         });
 

@@ -45,8 +45,6 @@ public class MainMoney extends Activity {
 
     TextView sign;
 
-    Typeface myfont;
-
     ImageButton denyWal;
     ImageButton acceptWal;
 
@@ -106,9 +104,6 @@ public class MainMoney extends Activity {
         addition = (TextView) findViewById(R.id.button4);
 
         sign = (TextView) findViewById(R.id.signmoney);
-
-        myfont = Typeface.createFromAsset(this.getAssets(), "fonts/oswaldmedium.ttf");
-        calcDialogDisplay.setTypeface(myfont);
 
         denyWal = (ImageButton) findViewById(R.id.denyWallet);
         acceptWal = (ImageButton) findViewById(R.id.acceptWallet);

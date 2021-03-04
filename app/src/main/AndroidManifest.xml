@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FamilyWallet">
+        <activity android:name=".Payments"></activity>
+        <activity android:name=".Transport" />
+        <activity android:name=".Restaurants" />
+        <activity android:name=".SuperMarkets" />
+        <activity android:name=".Markets" />
         <activity android:name=".MakePasswordActivity" />
         <activity android:name=".MainSettings" />
         <activity android:name=".MainScreen" />

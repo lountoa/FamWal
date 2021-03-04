@@ -41,6 +41,7 @@
         android:textSize="70dp"
         android:inputType="none"
         android:textIsSelectable="true"
+        android:fontFamily="@font/mainf"
         android:textColor="#ffffff"
         android:text=""
         android:textStyle="bold"
